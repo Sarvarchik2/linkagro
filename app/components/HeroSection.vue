@@ -54,8 +54,8 @@
                 <div class="text-xl font-bold text-accent">68%</div>
               </div>
               <div class="p-4 bg-white/5 rounded-lg">
-                <div class="text-xs text-gray-400 mb-1">Азот (N)</div>
-                <div class="text-xl font-bold text-emerald-400">Норма</div>
+                <div class="text-xs text-gray-400 mb-1">NDVI</div>
+                <div class="text-xl font-bold text-emerald-400">0.78</div>
               </div>
             </div>
           </div>
