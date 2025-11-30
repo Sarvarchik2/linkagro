@@ -13,31 +13,31 @@
       <div class="grid md:grid-cols-3 gap-8">
         <div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition">
           <div class="w-12 h-12 bg-agro-cream/20 rounded-lg flex items-center justify-center mb-6 text-agro-cream">
-            <Rocket class="w-6 h-6" />
+            <Shield class="w-6 h-6" />
           </div>
-          <h3 class="text-xl font-bold mb-3">Инновационный подход</h3>
+          <h3 class="text-xl font-bold mb-3">Снижение рисков</h3>
           <p class="text-gray-300 text-sm leading-relaxed">
-            Мы не просто оцифровываем данные, мы создаем прогностические модели, которые дают конкретные рекомендации, а не просто графики.
+            Объективные данные вместо субъективных оценок. Прозрачная история полей и прогноз урожайности минимизируют риски невозврата кредита.
           </p>
         </div>
 
         <div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition">
           <div class="w-12 h-12 bg-agro-light/20 rounded-lg flex items-center justify-center mb-6 text-agro-light">
-            <Users class="w-6 h-6" />
+            <Zap class="w-6 h-6" />
           </div>
-          <h3 class="text-xl font-bold mb-3">Сильная команда</h3>
+          <h3 class="text-xl font-bold mb-3">Автоматизация</h3>
           <p class="text-gray-300 text-sm leading-relaxed">
-            Сбалансированная команда с экспертизой в Backend, Frontend, AI/ML и UI/UX дизайне, готовая решать сложные задачи.
+            Быстрое принятие кредитных решений благодаря AI-скорингу. Оценка тысяч заявок без ручной работы.
           </p>
         </div>
 
         <div class="bg-white/5 backdrop-blur-sm p-8 rounded-2xl border border-white/10 hover:bg-white/10 transition">
           <div class="w-12 h-12 bg-primary-light/20 rounded-lg flex items-center justify-center mb-6 text-primary-light">
-            <Target class="w-6 h-6" />
+            <TrendingUp class="w-6 h-6" />
           </div>
-          <h3 class="text-xl font-bold mb-3">Фокус на результат</h3>
+          <h3 class="text-xl font-bold mb-3">Рост портфеля</h3>
           <p class="text-gray-300 text-sm leading-relaxed">
-            Наша цель — реальное увеличение прибыли фермеров и снижение рисков для банков, а не просто создание красивого интерфейса.
+            Уверенное расширение агрокредитования. Точные данные позволяют выдавать больше кредитов с меньшими рисками.
           </p>
         </div>
       </div>
@@ -46,5 +46,5 @@
 </template>
 
 <script setup>
-import { Rocket, Users, Target } from 'lucide-vue-next';
+import { Shield, Zap, TrendingUp } from 'lucide-vue-next';
 </script>

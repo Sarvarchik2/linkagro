@@ -3,7 +3,7 @@
     <div class="container relative z-10">
       <div class="text-center max-w-3xl mx-auto mb-16">
         <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">От Проблемы к <span class="text-accent">Решению</span></h2>
-        <p class="text-gray-300">Как LINKAGRO трансформирует неопределенность в гарантированную прибыль</p>
+        <p class="text-gray-300">Как LINKAGRO помогает банкам снизить риски агрокредитования</p>
       </div>
 
       <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -17,18 +17,22 @@
               <AlertTriangle class="w-4 h-4" />
               ПРОБЛЕМА
             </div>
-            <h3 class="text-2xl font-bold text-white mb-4">Нестабильность и Риск</h3>
+            <h3 class="text-2xl font-bold text-white mb-4">Высокие риски агрокредитования</h3>
             <p class="text-gray-300 mb-6">
-              Отсутствие рыночной информации вынуждает фермеров продавать урожай сразу после сбора по низким ценам. Потери составляют до 40% потенциальной прибыли.
+              Банки несут значительные потери из-за отсутствия объективных данных о заёмщиках. Невозможно оценить реальное состояние хозяйства и потенциал урожая.
             </p>
             <ul class="space-y-3">
               <li class="flex items-start gap-3">
                 <XCircle class="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
-                <span class="text-sm text-gray-300">Сложность учета глобальных трендов и погоды</span>
+                <span class="text-sm text-gray-300">Субъективная оценка кредитоспособности</span>
               </li>
               <li class="flex items-start gap-3">
                 <XCircle class="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
-                <span class="text-sm text-gray-300">Отсутствие рекомендаций по хранению и продаже</span>
+                <span class="text-sm text-gray-300">Отсутствие мониторинга использования кредита</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <XCircle class="w-5 h-5 text-red-400 shrink-0 mt-0.5" />
+                <span class="text-sm text-gray-300">Высокий процент невозврата агрокредитов</span>
               </li>
             </ul>
           </div>
@@ -44,18 +48,22 @@
               <CheckCircle2 class="w-4 h-4" />
               РЕШЕНИЕ
             </div>
-            <h3 class="text-2xl font-bold text-white mb-4">Интеллектуальный Советник</h3>
+            <h3 class="text-2xl font-bold text-white mb-4">AI-скоринг на объективных данных</h3>
             <p class="text-gray-300 mb-6">
-              Платформа на базе ИИ прогнозирует цены на 3–6 месяцев вперед, используя мультимодальные нейросети (LSTM/Transformer).
+              Спутниковый мониторинг полей + анализ почвы = точная оценка кредитоспособности. Прозрачные данные для уверенных кредитных решений.
             </p>
             <ul class="space-y-3">
               <li class="flex items-start gap-3">
                 <Check class="w-5 h-5 text-accent shrink-0 mt-0.5" />
-                <span class="text-sm text-gray-300">Анализ временных рядов для выявления скрытых зависимостей</span>
+                <span class="text-sm text-gray-300">Мониторинг состояния полей в реальном времени</span>
               </li>
               <li class="flex items-start gap-3">
                 <Check class="w-5 h-5 text-accent shrink-0 mt-0.5" />
-                <span class="text-sm text-gray-300">Четкая стратегия: "Хранить 30% до марта, прибыль +15%"</span>
+                <span class="text-sm text-gray-300">Прогноз урожайности на основе AI</span>
+              </li>
+              <li class="flex items-start gap-3">
+                <Check class="w-5 h-5 text-accent shrink-0 mt-0.5" />
+                <span class="text-sm text-gray-300">Автоматический расчёт кредитного скоринга</span>
               </li>
             </ul>
           </div>

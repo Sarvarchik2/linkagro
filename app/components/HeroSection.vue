@@ -8,16 +8,15 @@
     <div class="container relative z-10 grid lg:grid-cols-2 gap-12 items-center">
       <div class="space-y-8">
         <h1 class="text-4xl md:text-6xl font-bold leading-tight text-white">
-          LINKAGRO — система использования <span class="text-accent">современных технологий</span>
+          LINKAGRO — Объективная оценка <span class="text-accent">кредитоспособности фермеров</span>
         </h1>
         <p class="text-lg text-gray-300 max-w-xl">
-          Анализируйте почву, повышайте урожайность и получайте финансирование. 
-          Точные данные о посевах, прозрачность и надежность для вашего агробизнеса.
+          Анализ почвы и мониторинг полей для точных кредитных решений. Снижайте риски, увеличивайте портфель агрокредитов на основе объективных данных.
         </p>
         
         <div class="flex flex-col sm:flex-row gap-4">
           <button class="px-8 py-4 bg-accent hover:bg-accent-hover text-white font-bold rounded-full transition-all transform hover:scale-105 flex items-center justify-center gap-2">
-            Начать анализ
+            Получить демо
             <ArrowRight class="w-5 h-5" />
           </button>
           <button class="px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-full backdrop-blur-sm transition-all border border-white/20">
