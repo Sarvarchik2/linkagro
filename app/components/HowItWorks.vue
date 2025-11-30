@@ -19,7 +19,7 @@
           <div class="text-center">
             <h3 class="text-xl font-bold mb-3">Сбор данных</h3>
             <p class="text-gray-400 text-sm leading-relaxed">
-              Спутниковые снимки полей + данные о почве и истории посевов
+              Спутниковые снимки полей + анализ индексов NDVI, NDWI, EVI, SAVI, NDMI
             </p>
           </div>
         </div>
