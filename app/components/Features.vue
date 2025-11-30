@@ -3,7 +3,7 @@
     <div class="container space-y-32">
       
       <!-- Feature 1: Bank Scoring (MOVED TO FIRST) -->
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         <div class="order-2 lg:order-1 relative">
           <div class="absolute inset-0 bg-emerald-500/20 blur-3xl rounded-full transform -translate-x-10"></div>
           <img 
@@ -38,7 +38,7 @@
       </div>
 
       <!-- Feature 2: Monitoring -->
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         <div class="space-y-6">
           <div class="w-12 h-12 bg-purple-500/20 rounded-lg flex items-center justify-center">
             <Satellite class="w-6 h-6 text-purple-400" />
@@ -73,7 +73,7 @@
       </div>
 
       <!-- Feature 3: Risk Management -->
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center">
         <div class="order-2 lg:order-1 relative">
           <div class="absolute inset-0 bg-red-500/20 blur-3xl rounded-full transform -translate-x-10"></div>
           <img 
