@@ -2,7 +2,7 @@
   <section class="py-24 bg-primary-light relative overflow-hidden">
     <div class="container relative z-10">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4">Как работает <span class="text-accent">скоринг</span></h2>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4">Как работает <span class="text-accent">скоринг</span></h2>
         <p class="text-gray-400">От заявки до кредитного решения за 4 простых шага</p>
       </div>
 

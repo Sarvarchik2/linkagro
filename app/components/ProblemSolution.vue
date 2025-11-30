@@ -2,7 +2,7 @@
   <section class="py-24 bg-primary-dark relative overflow-hidden">
     <div class="container relative z-10">
       <div class="text-center max-w-3xl mx-auto mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">От Проблемы к <span class="text-accent">Решению</span></h2>
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 text-white">От Проблемы к <span class="text-accent">Решению</span></h2>
         <p class="text-gray-300">Как LINKAGRO помогает банкам снизить риски агрокредитования</p>
       </div>
 
