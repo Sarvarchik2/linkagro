@@ -2,15 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
 body {
   @apply bg-primary-dark text-white font-sans;
-  /* Fallback */
+  overflow-x: hidden;
+  width: 100%;
 }
 
 .container {
   @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-}
-
-html {
-  scroll-behavior: smooth;
 }

@@ -6,7 +6,7 @@
         <p class="text-gray-300">Как LINKAGRO помогает банкам снизить риски агрокредитования</p>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-12 items-center">
+      <div class="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
         <!-- Problem -->
         <div class="bg-red-900/20 p-8 rounded-3xl border border-red-500/20 relative group hover:shadow-xl hover:border-red-500/40 transition-all duration-300">
           <div class="absolute top-4 right-4 text-red-500/20 group-hover:text-red-500/40 transition-colors">

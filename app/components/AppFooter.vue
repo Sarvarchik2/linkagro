@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-primary-dark border-t border-white/10 pt-16 pb-8">
     <div class="container">
-      <div class="grid md:grid-cols-4 gap-12 mb-12">
+      <div class="grid md:grid-cols-4 gap-8 md:gap-12 mb-12">
         <!-- Brand -->
         <div class="space-y-4">
           <div class="flex items-center gap-2">
