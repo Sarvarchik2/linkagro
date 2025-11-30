@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary-dark text-white font-sans;
+  background-color: #0f172a;
+  /* Fallback */
+}
+
+.container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
