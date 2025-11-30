@@ -52,7 +52,7 @@
       </div>
 
       <div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-        <p>&copy; 2024 LINKAGRO. Все права защищены.</p>
+        <p>&copy; 2025 LINKAGRO. Все права защищены.</p>
         <div class="flex gap-6">
           <a href="#" class="hover:text-white transition-colors">Политика конфиденциальности</a>
           <a href="#" class="hover:text-white transition-colors">Условия использования</a>
