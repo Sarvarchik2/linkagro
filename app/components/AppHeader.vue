@@ -2,12 +2,12 @@
   <header class="fixed w-full z-50 bg-primary/90 backdrop-blur-sm border-b border-white/10">
     <div class="container flex items-center justify-between h-20">
       <!-- Logo -->
-      <div class="flex items-center gap-2">
+      <NuxtLink to="/" class="flex items-center gap-2 hover:opacity-80 transition-opacity">
         <div class="w-8 h-8 bg-accent rounded-full flex items-center justify-center">
           <Leaf class="w-5 h-5 text-white" />
         </div>
         <span class="text-xl font-bold tracking-wide text-white">LINKAGRO</span>
-      </div>
+      </NuxtLink>
 
       <!-- Desktop Navigation -->
       <nav class="hidden md:flex items-center gap-6">
@@ -19,6 +19,7 @@
         <a href="#implementation" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Реализация</a>
         <a href="#roadmap" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Roadmap</a>
         <a href="#team" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Команда</a>
+        <NuxtLink to="/demo" class="text-sm font-medium text-accent hover:text-accent-hover transition-colors font-bold">Демо</NuxtLink>
         <a href="#contacts" class="text-sm font-medium text-gray-300 hover:text-white transition-colors">Контакты</a>
       </nav>
 
@@ -75,6 +76,10 @@
             <Users class="w-5 h-5 group-hover:scale-110 transition-transform" />
             <span class="font-medium">Команда</span>
           </a>
+          <NuxtLink @click="isOpen = false" to="/demo" class="flex items-center gap-3 px-4 py-3 rounded-lg text-white hover:bg-accent/20 hover:text-accent transition-all group">
+            <Video class="w-5 h-5 group-hover:scale-110 transition-transform" />
+            <span class="font-medium font-bold">Демо</span>
+          </NuxtLink>
           <a @click="isOpen = false" href="#contacts" class="flex items-center gap-3 px-4 py-3 rounded-lg text-white hover:bg-accent/20 hover:text-accent transition-all group">
             <Phone class="w-5 h-5 group-hover:scale-110 transition-transform" />
             <span class="font-medium">Контакты</span>
@@ -87,7 +92,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import { Leaf, Menu, X, Home, AlertCircle, Workflow, Award, Sparkles, Code, Map, Users, Phone } from 'lucide-vue-next';
+import { Leaf, Menu, X, Home, AlertCircle, Workflow, Award, Sparkles, Code, Map, Users, Phone, Video } from 'lucide-vue-next';
 
 const isOpen = ref(false);
 </script>
